@@ -1,14 +1,55 @@
 //Localhost
+//They get mad when there's not empty space between the lines...even if it's a commented line...
+//Also for whatever reason place ### between each request so it knows they're separate.
 GET http://localhost:3000/contacts/
+
+
 //Individuals
+###
 GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851df
+
+###
 GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851e0
+
+###
 GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851e1
 
 
+###
+POST http://localhost:3000/contacts/
+Content-Type: application/json
+
+{
+  "firstName": "Rusty",
+  "lastName": "Shackleford",
+  "email": "sovereigncitizen1975@yahoo.com",
+  "favoriteColor": "Jeskai",
+  "birthday": "None of your business!!!"
+}
+
+
 //Render
+###
 GET https://cse341-l2.onrender.com/contacts/
+
 //Individuals
+###
 GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851df
+###
+
 GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851e0
+
+###
 GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851e1
+
+###
+POST https://cse341-l2.onrender.com/contacts/
+Content-Type: application/json
+
+{
+  "firstName": "Leedle",
+  "lastName": "Lord",
+  "email": "leedlemeister@dcc.org",
+  "favoriteColor": "Zocchi red",
+  "birthday": "25 Oct 1994"
+}

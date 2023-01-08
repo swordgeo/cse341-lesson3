@@ -11,8 +11,8 @@ const routes = express.Router();
 const contactsController = require('../controllers/contacts');
 
 routes.get('/', contactsController.getContacts);
-// routes.get('/:id', contactsController.getContact);
-// routes.post('/', contactsController.addContact);
+routes.get('/:id', contactsController.getContact);
+routes.post('/', contactsController.addContact);
 // routes.patch('/:id', contactsController.updateContact);
 // routes.delete('/:id', contactsController.updateContact);
 
