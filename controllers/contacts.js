@@ -20,4 +20,8 @@ const getContact = async (req, res, next) => {
   });
 };
 
+const addContact = async (req, res, next) => {
+  
+}
+
 module.exports = { getContacts, getContact};
