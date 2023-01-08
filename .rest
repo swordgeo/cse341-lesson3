@@ -1,0 +1,14 @@
+//Localhost
+GET http://localhost:3000/contacts/
+//Individuals
+GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851df
+GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851e0
+GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851e1
+
+
+//Render
+GET https://cse341-l2.onrender.com/contacts/
+//Individuals
+GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851df
+GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851e0
+GET https://cse341-l2.onrender.com/contacts/63b8bfd0d1eae2434d1851e1

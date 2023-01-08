@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Jay",
+    "lastName": "McManus",
+    "email": "mardulife1994@gmail.com",
+    "favoriteColor": "aquamarine",
+    "birthday": "20 Apr 1994"
+  },
+  "contact2": {
+    "firstName": "Ross",
+    "lastName": "Nichols",
+    "email": "jundemout@yahoo.com",
+    "favoriteColor": "dark brown",
+    "birthday": "13 Mar 1997"
+  },
+  "contact3": {
+    "firstName": "Trevor",
+    "lastName": "Opdycke",
+    "email": "trevnorfizbent@hotmail.net",
+    "favoriteColor": "hot pink",
+    "birthday": "14 Feb 1992"
+  }
+}
