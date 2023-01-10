@@ -13,7 +13,7 @@ const contactsController = require('../controllers/contacts');
 routes.get('/', contactsController.getContacts);
 routes.get('/:id', contactsController.getContact);
 routes.post('/', contactsController.addContact);
-// routes.patch('/:id', contactsController.updateContact);
+routes.put('/:id', contactsController.editContact);
 routes.delete('/:id', contactsController.delContact);
 
 module.exports = routes;

@@ -18,8 +18,9 @@ GET http://localhost:3000/contacts/63b8bfd0d1eae2434d1851e1
 ###
 POST http://localhost:3000/contacts/
 Content-Type: application/json
+
 {
-  //"firstName": "Rusty",
+  "firstName": "Rusty",
   "lastName": "Shackleford",
   "email": "sovereigncitizen1975@yahoo.com",
   "favoriteColor": "Jeskai",
@@ -27,7 +28,25 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/contacts/333333333333
+DELETE http://localhost:3000/contacts/63bcabfef3b53a57bea3c3fb
+
+###
+//this will overwrite EVERYTHING; we can't change one field at a time (yet)
+//Will even remove values we leave blank in PUT request
+
+//Assignment demands I use 204 but that status won't let me set json messages
+//So don't freak out that we get no message - freak out if we DO
+
+PUT http://localhost:3000/contacts/63bb58adc5845df68edbea4e
+Content-type: application/json
+
+{
+  "firstName":"Beeg", 
+  "lastName":"Yoshi", 
+  "email":"chungallday@gmail.com", 
+  "favoriteColor":"green", 
+  "birthday":"25 Dec 1979"
+}
 
 //Render
 
@@ -61,4 +80,23 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://cse341-l3.onrender.com/63bb58adc5845df68edbea4e
+DELETE https://cse341-l3.onrender.com/contacts/63bd4d46c2bedd951325c132
+
+###
+//this will overwrite EVERYTHING; we can't change one field at a time (yet)
+//Will even remove values we leave blank in PUT request
+
+//Assignment demands I use 204 but that status won't let me set json messages
+//So don't freak out that we get no message - freak out if we DO
+
+PUT https://cse341-l3.onrender.com/contacts/63bb58adc5845df68edbea4e
+Content-type: application/json
+
+{
+  "firstName":"Small", 
+  "lastName":"Yoshi", 
+  "email":"chungonlyonweekendsandholidays@gmail.com", 
+  "favoriteColor":"off-green", 
+  "birthday":"1 Apr 1979"
+}
+
